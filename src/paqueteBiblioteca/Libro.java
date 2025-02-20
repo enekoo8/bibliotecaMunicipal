@@ -25,4 +25,11 @@ public class Libro {
 		ISBN = iSBN;
 	}
 
+	//Otros metodos
+	//ToString
+	@Override
+	public String toString() {
+		return "Libro: " + titulo + ", ISBN=" + ISBN;
+	}
+	
 }

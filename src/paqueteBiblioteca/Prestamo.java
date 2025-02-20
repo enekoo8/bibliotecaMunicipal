@@ -33,5 +33,20 @@ public class Prestamo {
 	public void setFechaDevolucion(Date fechaDevolucion) {
 		this.fechaDevolucion = fechaDevolucion;
 	}
+	
+	//Otros metodos
+	//ToString
+	@Override
+	public String toString() {
+		return "Prestamo: [fechaInicio=" + fechaInicio + ", fechaDevolucion=" + fechaDevolucion + "]";
+	}
+	
+	//Metodo para saber si el libro está devuelto
+	public boolean estaDevuelto() {
+		if (fechaDevolucion == null){
+			return false;
+		}
+		return true;
+	}
 
 }

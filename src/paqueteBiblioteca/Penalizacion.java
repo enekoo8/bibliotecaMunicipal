@@ -17,5 +17,12 @@ public class Penalizacion {
 	public void setDescripcion(String descripcion) {
 		this.descripcion = descripcion;
 	}
+	
+	//Otros metodos
+	//ToString
+	@Override
+	public String toString() {
+		return "Penalizacion: " + descripcion;
+	}
 
 }

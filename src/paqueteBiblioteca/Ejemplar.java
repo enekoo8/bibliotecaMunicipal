@@ -25,5 +25,12 @@ public class Ejemplar {
 	public void setEstado(String estado) {
 		this.estado = estado;
 	}
+	
+	//Otros metodos
+	//ToString
+	@Override
+	public String toString() {
+		return "El ejemplar con codigo " + codigo + "está "+ estado;
+	}
 
 }

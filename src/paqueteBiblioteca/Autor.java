@@ -1,5 +1,7 @@
 package paqueteBiblioteca;
 
+import java.util.Objects;
+
 public class Autor {
 	int cod_autor;
 	String nombre;
@@ -55,5 +57,15 @@ public class Autor {
 	public void setApellido2(String apellido2) {
 		this.apellido2 = apellido2;
 	}
-		
+	
+	//Otros metodos
+	//ToString
+	@Override
+	public String toString() {
+		return "Autor: cod_autor=" + cod_autor + ", nombre=" + nombre + ", apellido1=" + apellido1 + ", apellido2="
+				+ apellido2 ;
+	}
+
+	
+	
 }

@@ -87,5 +87,18 @@ public class Socio {
 	public void setCorreoElectronico(String correoElectronico) {
 		this.correoElectronico = correoElectronico;
 	}
+	
+	//Otros metodos
+	//ToString
+	@Override
+	public String toString() {
+		return "Socio: [DNI=" + DNI + ", nombre=" + nombre + ", apellido=" + apellido + ", direcccion=" + direcccion
+				+ ", telefono=" + telefono + ", correoElectronico=" + correoElectronico + "]";
+	}
+
+	//Metodo que simula el envio de un mensaje por correo electronico
+	public void enviarNotificacion(String mensaje) {
+		System.out.println("Enviando correo a " + correoElectronico + ": " + mensaje);
+	}
 
 }
