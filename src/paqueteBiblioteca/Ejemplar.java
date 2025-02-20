@@ -10,5 +10,20 @@ public class Ejemplar {
 		this.codigo = codigo;
 		this.estado = estado;
 	}
+	
+	//Getters y Setters
+	public int getCodigo() {
+		return codigo;
+	}
+	
+	public void setCodigo(int codigo) {
+		this.codigo = codigo;
+	}
+	public String getEstado() {
+		return estado;
+	}
+	public void setEstado(String estado) {
+		this.estado = estado;
+	}
 
 }

@@ -9,4 +9,13 @@ public class Penalizacion {
 		this.descripcion = descripcion;
 	}
 
+	//Getters y Setters
+	public String getDescripcion() {
+		return descripcion;
+	}
+
+	public void setDescripcion(String descripcion) {
+		this.descripcion = descripcion;
+	}
+
 }

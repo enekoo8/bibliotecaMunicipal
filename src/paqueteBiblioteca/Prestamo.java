@@ -18,5 +18,20 @@ public class Prestamo {
 		super();
 		this.fechaInicio = fechaInicio;
 	}
+	
+	//Getters y Setters
+	public Date getFechaInicio() {
+		return fechaInicio;
+	}
+
+	public void setFechaInicio(Date fechaInicio) {
+		this.fechaInicio = fechaInicio;
+	}
+	public Date getFechaDevolucion() {
+		return fechaDevolucion;
+	}
+	public void setFechaDevolucion(Date fechaDevolucion) {
+		this.fechaDevolucion = fechaDevolucion;
+	}
 
 }

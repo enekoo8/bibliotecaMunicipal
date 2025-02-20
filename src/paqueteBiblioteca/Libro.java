@@ -11,4 +11,18 @@ public class Libro {
 		ISBN = iSBN;
 	}
 
+	//Getters y Setters
+	public String getTitulo() {
+		return titulo;
+	}
+	public void setTitulo(String titulo) {
+		this.titulo = titulo;
+	}
+	public int getISBN() {
+		return ISBN;
+	}
+	public void setISBN(int iSBN) {
+		ISBN = iSBN;
+	}
+
 }
